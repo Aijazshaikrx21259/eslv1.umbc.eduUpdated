@@ -14,10 +14,10 @@ import Link from "next/link";
 const SAMPLE_APPS = [
   {
     id: "1",
-    name: "Social Connect",
-    category: "Social Media",
+    name: "Moodnotes ",
+    category: "Health App",
     rating: "3.5/5",
-    certification: "Certified",
+    certification: "NA",
     privacyScore: "Medium",
     dataUsage: "High",
     description: "A popular social media platform for connecting with friends and sharing content.",
