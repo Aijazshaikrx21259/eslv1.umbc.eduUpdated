@@ -1,0 +1,30 @@
+Application: SafeWallet Finance
+
+Data Usage:
+Data Collection: High
+Third-Party Sharing: Banking Partners Only
+Data Storage: Secure Cloud
+Retention Period: 7 years
+
+Permissions:
+Camera: Required (for check deposits)
+Location: Required
+Contacts: Optional
+Microphone: Not Used
+Notifications: Required
+Face/Touch ID: Required
+Payment Info: Required
+
+Privacy:
+Encryption: End-to-End
+User Data Control: Full
+Ad Tracking: None
+Third-Party Access: Limited to financial partners
+Data Deletion: Available after retention period
+Two-Factor Authentication: Required
+
+Terms & Conditions:
+Reading Time: 35 min
+Readability Score: Complex
+Auto-Renewal: No
+FDIC Insured: Yes

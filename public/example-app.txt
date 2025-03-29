@@ -1,0 +1,25 @@
+Application: Weather App Pro
+
+Data Usage:
+Data Collection: Medium
+Third-Party Sharing: Limited
+Data Storage: Device & Cloud
+Retention Period: 6 months
+
+Permissions:
+Camera: Not Used
+Location: Required
+Contacts: Not Used
+Microphone: Not Used
+Notifications: Optional
+System Preferences: Required
+
+Privacy:
+Encryption: Yes
+User Data Control: Full
+Ad Tracking: Minimal
+Third-Party Access: Weather data providers only
+
+Terms & Conditions:
+Reading Time: 15 min
+Readability Score: Moderate

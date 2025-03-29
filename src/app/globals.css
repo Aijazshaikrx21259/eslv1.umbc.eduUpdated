@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    /* UMBC ESL Colors */
+    --primary: 42 92% 51%; /* #f6b90e - UMBC Yellow */
+    --primary-foreground: 0 0% 0%; /* Black text on yellow */
+    --secondary: 0 0% 9%; /* #161616 - Dark Gray/Black */
+    --secondary-foreground: 0 0% 100%;
+
+    --umbc-black: 0 0% 5%;
+    --umbc-gold: 42 92% 51%;
+    --umbc-dark-gold: 35 73% 38%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 42 92% 51%; /* Using UMBC yellow for focus rings */
+    --radius: 0.25rem;
+
+    /* Chart colors for data visualization */
+    --chart-1: 42 92% 51%; /* UMBC Yellow */
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    /* UMBC ESL Colors - Dark Mode */
+    --primary: 42 92% 51%; /* #f6b90e - UMBC Yellow (keep same) */
+    --primary-foreground: 0 0% 0%; /* Black text on yellow */
+    --secondary: 0 0% 9%; /* #161616 - Dark Gray/Black */
+    --secondary-foreground: 0 0% 100%;
+
+    --umbc-black: 0 0% 5%;
+    --umbc-gold: 42 92% 51%;
+    --umbc-dark-gold: 35 73% 38%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 42 92% 51%; /* Using UMBC yellow for focus rings */
+
+    /* Chart colors for data visualization - Dark mode */
+    --chart-1: 42 92% 51%; /* UMBC Yellow */
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html, body {
+    @apply bg-background text-foreground;
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h2 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  h3 {
+    @apply text-xl md:text-2xl;
+  }
+}
+
+@layer components {
+  .umbc-container {
+    @apply container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+    display: block;
+    width: 100%;
+  }
+
+  /* Fix SVG rendering */
+  svg {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  /* Ensure images render properly */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .nutrition-label {
+    @apply border-2 border-black p-4 w-full max-w-md mx-auto bg-white text-black;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .nutrition-label-title {
+    @apply text-3xl font-bold text-center border-b-8 border-black pb-1 mb-1;
+  }
+
+  .nutrition-label-section {
+    @apply border-b border-black py-1;
+  }
+
+  .nutrition-label-line {
+    @apply flex justify-between py-1;
+  }
+
+  .nutrition-label-heading {
+    @apply text-lg font-bold border-t-4 border-b-2 border-black py-1 my-2;
+  }
+}

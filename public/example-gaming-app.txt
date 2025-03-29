@@ -1,0 +1,28 @@
+Application: GamerHub Pro
+
+Data Usage:
+Data Collection: Medium
+Third-Party Sharing: Limited
+Data Storage: Device & Cloud
+Retention Period: 12 months
+
+Permissions:
+Camera: Optional
+Location: Optional
+Contacts: Not Used
+Microphone: Required
+Notifications: Required
+System Preferences: Required
+Payment Info: Required
+
+Privacy:
+Encryption: Yes
+User Data Control: Full
+Ad Tracking: Minimal
+Third-Party Access: Gaming partners only
+Data Deletion: Available on request
+
+Terms & Conditions:
+Reading Time: 22 min
+Readability Score: Moderate
+Auto-Renewal: Yes

@@ -1,0 +1,25 @@
+Application: Social Media App
+
+Data Usage:
+Data Collection: Very High
+Third-Party Sharing: Extensive
+Data Storage: Cloud-Based
+Retention Period: Indefinite
+
+Permissions:
+Camera: Required
+Location: Required
+Contacts: Required
+Microphone: Required
+Notifications: Required
+System Preferences: Required
+
+Privacy:
+Encryption: Partial
+User Data Control: Limited
+Ad Tracking: Extensive
+Third-Party Access: Multiple partners
+
+Terms & Conditions:
+Reading Time: 45 min
+Readability Score: Very Complex
